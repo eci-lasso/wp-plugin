@@ -9,9 +9,9 @@
 <li>Add the Lasso form fields under the <b>Form</b> tab as shown in <a href="https://github.com/eci-lasso/wp-plugin/blob/main/Legacy%20Contact%20Form%207%20Plugin/contact-form/form.html" target="_blank">form.html</a></li>
 </ul>
 <h3><a name="special-cases">Special Cases</a></h3>
-<p>To submit to different projects based on an answer selection</p>
+<p>To submit to different projects based on an answer selection:</p>
 <ul>
 <li>Remove the <code>ProjectID</code> from under the <b>Additional Settings</b> tab</li>
-<li>Add the <code>ProjectID</code> under the <b>Form</b> tab as a question (examples below)</li>
+<li>Add the <code>ProjectID</code> under the <b>Form</b> tab as a single- or multi-select question (examples below)</li>
 </ul>
 <pre>[radio ProjectID "Project One|1111" "Project Two|2222" "Project Three|3333"]<br />[checkbox ProjectIds "Project One|1111" "Project Two|2222" "Project Three|3333"]</pre>
