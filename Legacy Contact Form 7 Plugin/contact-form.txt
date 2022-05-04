@@ -1,3 +1,17 @@
+[hidden guid][hidden domainAccountId "LAS-123456-01"]
+
+Name Title
+[select NameTitle first_as_label "--Select One--" "Dr" "Mr" "Mrs" "Mr & Mrs" "Ms" "Miss" "Lord"]
+
+First Name (required)
+[text* FirstName]
+
+Last Name (required)
+[text* LastName]
+
+Gender
+[radio Gender "Unspecified" "Male" "Female"]
+
 Primary Email(required)
 [email* Emails-Primary]
 
