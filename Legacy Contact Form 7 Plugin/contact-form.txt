@@ -1,58 +1,46 @@
+<!-- Website Tracking -->
 [hidden guid][hidden domainAccountId "LAS-123456-01"]
 
-Name Title
+<!-- Basic Information -->
 [select NameTitle first_as_label "--Select One--" "Dr" "Mr" "Mrs" "Mr & Mrs" "Ms" "Miss" "Lord"]
-
-First Name (required)
-[text* FirstName]
-
-Last Name (required)
+[text* FirstName] 
 [text* LastName]
 
-Gender
 [radio Gender "Unspecified" "Male" "Female"]
 
-Primary Email(required)
-[email* Emails-Primary]
-
-Secondary Email
-[email Emails-Secondary]
-
-Tertiary Email
-[email Emails-Tertiary]
-
-Home Phone Number
-[text Phones-Home]
-
-Cell Phone Number
-[text Phones-Cell]
-
-Work Phone Number
-[text Phones-Work]
-
-Work Phone Extension
-[text Phones-WorkExt]
-
-<strong>Address</strong>
-[text Address]
-
-<strong>City</strong>
-[text City]
-
-<strong>Province</strong>
-[text Province]
-
-<strong>Postal Code</strong>
-[text PostalCode]
-
-<strong>Country</strong>
-[text Country]
-
-<strong>Employer</strong>
 [text Company]
-
-Job Title
 [text JobTitle]
 
-Contact Preference
 [select ContactPreference first_as_label "--Select One--" "Any" "Email" "Mail" "Phone" "Text" "No Email" "No Contact"]
+
+<!-- Contact Information -->
+[email Emails-Primary]
+[email Emails-Secondary]
+[email Emails-Tertiary]
+
+[text Phones-Home]
+[text Phones-Cell]
+[text Phones-Work]
+[text Phones-WorkExt]
+
+[text Address]
+[text City]
+[text Province]
+[text PostalCode]
+[text Country]
+
+<!-- Question Types -->
+
+<!-- Checkbox -->
+[checkbox Questions-1234- "Answer One|1111" "Answer Two|2222" "Answer Three|3333"]
+<!-- Drop-down (multiple selection) -->
+[select Questions-1234- multiple "Answer One|1111" "Answer Two|2222" "Answer Three|3333"]
+<!-- Drop-down (single selection) -->
+[select Questions-1234 first_as_label "--Select One--" "Answer One|1111" "Answer Two|2222" "Answer Three|3333"]
+<!-- Radio buttons -->
+[radio Questions-1234 "Answer One|1111" "Answer Two|2222" "Answer Three|3333"]
+<!-- Text/manual input -->
+[text Questions-1234]
+
+<!-- Notes -->
+[textarea Comments]
