@@ -1,17 +1,10 @@
-<h1>WordPress Legacy Form Integration</h1>
+<h1>WordPress Form Integration</h1>
 
-<h3><a name="cf7-plugin">Contact Form 7 Integration</a></h3>
-<p>To integrate a Contact Form 7 WordPress form:</p>
+<h3><a name="new-plugin">Contact Form 7 & Gravity Forms</a></h3>
+<p>To integrate a Contact Form 7 or Gravity WordPress form:</p>
 <ul>
-<li>Download the WordPress plugin <a href="https://github.com/eci-lasso/wp-plugin/tree/main/legacy-cf7-plugin/cf7-lasso-v1.4.zip" download>cf7-lasso-v1.4.zip</a></li>
-<li>Refer to the <a href="https://contactform7.com/getting-started-with-contact-form-7/" target="_blank">Getting started with Contact Form 7</a> article for instructions on setting up a Contact Form 7 WordPress form.</li>
-<li>Add the Lasso integration settings under the <b>Additional Settings</b> tab as shown in <a href="https://github.com/eci-lasso/wp-plugin/tree/main/legacy-cf7-plugin/contact-form/additional-settings.txt" target="_blank">additional-settings.txt</a></li>
-<li>Add the Lasso form fields under the <b>Form</b> tab as shown in <a href="https://github.com/eci-lasso/wp-plugin/tree/main/legacy-cf7-plugin/contact-form/form.html" target="_blank">form.html</a></li>
+<li>Download the WordPress plugin <a href="https://github.com/eci-lasso/wp-plugin/blob/main/lasso-bridge_1.4.zip" download>lasso-bridge_1.4.zip</a></li>
+<li>Refer to the <a href="https://constructionsupport.ecisolutions.com/s/article/Lasso-Integrations-Integrate-Online-Form-Registration-Page-with-Lasso" target="_blank">Integrate Online Form (Registration Page) with Lasso</a> help article for instructions.</li>
 </ul>
-<h3><a name="multi-project">Multi-project Submissions</a></h3>
-<p>To submit to different projects based on an answer selection:</p>
-<ul>
-<li>Remove the <code>ProjectID</code> from under the <b>Additional Settings</b> tab</li>
-<li>Add the <code>ProjectID</code> under the <b>Form</b> tab as a single- or multi-select question (examples below)</li>
-</ul>
-<pre>[radio ProjectID "Project One|1111" "Project Two|2222" "Project Three|3333"]<br />[checkbox ProjectIds "Project One|1111" "Project Two|2222" "Project Three|3333"]</pre>
+<p>Please note that the current plugin does not support multi-project submissions as each form uses a project-specific API key to submit data into Lasso.</p>
+<p>If this is needed for a Contact Form 7 form, our <a href="https://github.com/eci-lasso/wp-plugin/tree/main/legacy-cf7-plugin" target="_blank">Legacy Contact Form 7 Plugin</a> can be used instead.</p>
