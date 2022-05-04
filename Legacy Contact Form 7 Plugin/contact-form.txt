@@ -1,0 +1,44 @@
+Primary Email(required)
+[email* Emails-Primary]
+
+Secondary Email
+[email Emails-Secondary]
+
+Tertiary Email
+[email Emails-Tertiary]
+
+Home Phone Number
+[text Phones-Home]
+
+Cell Phone Number
+[text Phones-Cell]
+
+Work Phone Number
+[text Phones-Work]
+
+Work Phone Extension
+[text Phones-WorkExt]
+
+<strong>Address</strong>
+[text Address]
+
+<strong>City</strong>
+[text City]
+
+<strong>Province</strong>
+[text Province]
+
+<strong>Postal Code</strong>
+[text PostalCode]
+
+<strong>Country</strong>
+[text Country]
+
+<strong>Employer</strong>
+[text Company]
+
+Job Title
+[text JobTitle]
+
+Contact Preference
+[select ContactPreference first_as_label "--Select One--" "Any" "Email" "Mail" "Phone" "Text" "No Email" "No Contact"]
