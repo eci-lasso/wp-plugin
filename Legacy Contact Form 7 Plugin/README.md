@@ -1,6 +1,6 @@
 <h1>WordPress Legacy Form Integration</h1>
 
-<h3><a name="cf7-plugin">Contact Form 7</a></h3>
+<h3><a name="cf7-plugin">Contact Form 7 Integration</a></h3>
 <p>To integrate a Contact Form 7 WordPress form:</p>
 <ul>
 <li>Download the WordPress plugin <a href="https://github.com/eci-lasso/wp-plugin/tree/main/Legacy%20Contact%20Form%207%20Plugin/cf7-lasso-v1.4.zip" download>cf7-lasso-v1.4.zip</a></li>
