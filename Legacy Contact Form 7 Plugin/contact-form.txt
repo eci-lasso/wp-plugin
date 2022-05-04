@@ -1,10 +1,10 @@
-<!-- Website Tracking -->
+<!-- Website Tracking Information -->
 [hidden guid][hidden domainAccountId "LAS-123456-01"]
 
 <!-- Basic Information -->
 [select NameTitle first_as_label "--Select One--" "Dr" "Mr" "Mrs" "Mr & Mrs" "Ms" "Miss" "Lord"]
-[text* FirstName] 
-[text* LastName]
+[text FirstName] 
+[text LastName]
 
 [radio Gender "Unspecified" "Male" "Female"]
 
