@@ -8,7 +8,7 @@
 <li>Add the Lasso integration settings under the <b>Additional Settings</b> tab as shown in <a href="https://github.com/eci-lasso/wp-plugin/blob/main/Legacy%20Contact%20Form%207%20Plugin/contact-form/additional-settings.txt" target="_blank">additional-settings.txt</a></li>
 <li>Add the Lasso form fields under the <b>Form</b> tab as shown in <a href="https://github.com/eci-lasso/wp-plugin/blob/main/Legacy%20Contact%20Form%207%20Plugin/contact-form/form.html" target="_blank">form.html</a></li>
 </ul>
-<h3><a name="special-cases">Special Cases</a></h3>
+<h3><a name="multi-project">Multi-project Submissions</a></h3>
 <p>To submit to different projects based on an answer selection:</p>
 <ul>
 <li>Remove the <code>ProjectID</code> from under the <b>Additional Settings</b> tab</li>
