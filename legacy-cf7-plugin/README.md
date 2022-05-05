@@ -21,7 +21,7 @@
 <p>To capture dynamic fields and submit to Lasso:</p>
 <ul>
 <li>Install and activate the <a href="https://sevenspark.com/goods/contact-form-7-dynamic-text-extension" target="_blank">Contact Form 7 - Dynamic Text Extension</a> plugin</li>
-<li>Add the manual input question fields under the <b>Form</b> tab</li>
+<li>Add the hidden manual input question fields under the <b>Form</b> tab</li>
 </ul>
 <pre>[dynamichidden Questions-1111 "CF7_URL"]
 [dynamichidden Questions-2222 "CF7_get_post_var key='title'"]
