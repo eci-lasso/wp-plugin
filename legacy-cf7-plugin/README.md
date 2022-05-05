@@ -13,7 +13,7 @@
 <p>To submit to different projects based on an answer selection:</p>
 <ul>
 <li>Remove the <code>ProjectID</code> from under the <b>Additional Settings</b> tab</li>
-<li>Add the <code>ProjectID</code> under the <b>Form</b> tab as a single- or multi-select question</li>
+<li>Add <code>ProjectID</code> or <code>ProjectIds</code> under the <b>Form</b> tab as a single- or multi-select question</li>
 </ul>
 <pre>[radio ProjectID "Project One|1111" "Project Two|2222" "Project Three|3333"]<br />[checkbox ProjectIds "Project One|1111" "Project Two|2222" "Project Three|3333"]</pre>
 
