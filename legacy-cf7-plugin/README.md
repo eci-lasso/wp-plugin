@@ -4,9 +4,9 @@
 <p>To integrate a Contact Form 7 WordPress form:</p>
 <ul>
 <li>Download the WordPress plugin <a href="https://github.com/eci-lasso/wp-plugin/blob/main/legacy-cf7-plugin/cf7-lasso-v1.4.zip" download>cf7-lasso-v1.4.zip</a></li>
-<li>Refer to the <a href="https://constructionsupport.ecisolutions.com/s/article/Lasso-Integrations-Integrate-Contact-Form-7-with-Lasso" target="_blank">Integrate Contact Form 7 with Lasso</a> help article for instructions</li>
 <li>Add the Lasso integration settings under the <b>Additional Settings</b> tab as shown in <a href="https://github.com/eci-lasso/wp-plugin/blob/main/legacy-cf7-plugin/contact-form/additional-settings.txt" target="_blank">additional-settings.txt</a></li>
 <li>Add the Lasso form fields under the <b>Form</b> tab as shown in <a href="https://github.com/eci-lasso/wp-plugin/blob/main/legacy-cf7-plugin/contact-form/form.html" target="_blank">form.html</a></li>
+<li>Refer to the <a href="https://constructionsupport.ecisolutions.com/s/article/Lasso-Integrations-Integrate-Contact-Form-7-with-Lasso" target="_blank">Integrate Contact Form 7 with Lasso</a> help article for full instructions</li>
 </ul>
 
 <h3><a name="multi-project">Multi-project Submissions</a></h3>
