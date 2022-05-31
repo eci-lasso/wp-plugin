@@ -18,7 +18,7 @@
 </ul>
 <pre>[radio* ProjectID "Project One|1111" "Project Two|2222" "Project Three|3333"]<br />[checkbox* ProjectIds "Project One|1111" "Project Two|2222" "Project Three|3333"]</pre>
 
-<h3><a name="multi-project">Sales Details as Form Fields</a></h3>
+<h3><a name="sales-details">Sales Details as Form Fields</a></h3>
 <p>To submit to different projects based on an answer selection:</p>
 <ul>
 <li>Remove the <code>SourceTypeID</code> and/or <code>followUpProcessId</code> from under the <b>Additional Settings</b> tab</li>
