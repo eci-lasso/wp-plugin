@@ -16,7 +16,7 @@
 <li>Remove the <code>ProjectID</code> from under the <b>Additional Settings</b> tab</li>
 <li>Add <code>ProjectID</code> or <code>ProjectIds</code> under the <b>Form</b> tab as a required single- or multi-select question</li>
 </ul>
-<pre>[radio* ProjectID "Project One|1111" "Project Two|2222" "Project Three|3333"]<br />[checkbox* ProjectIds- "Project One|1111" "Project Two|2222" "Project Three|3333"]</pre>
+<pre>[radio* ProjectID "Project One|1111" "Project Two|2222" "Project Three|3333"]<br />[checkbox* ProjectIds "Project One|1111" "Project Two|2222" "Project Three|3333"]</pre>
 
 <h3><a name="sales-details">Sales Details as Form Fields</a></h3>
 <p>To submit to different projects based on an answer selection:</p>
