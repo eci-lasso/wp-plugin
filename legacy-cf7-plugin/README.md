@@ -22,7 +22,7 @@
 <p>To set Source Type and Follow-up Process as form fields and assign values based on selections:</p>
 <ul>
 <li>Remove the <code>SourceTypeID</code> and/or <code>followUpProcessId</code> from under the <b>Additional Settings</b> tab</li>
-<li>Add the <code>SourceTypeID</code> and/or <code>followUpProcessId</code> under the <b>Form</b> tab as a single-select question</li>
+<li>Add the <code>SourceTypeID</code> and/or <code>followUpProcessId</code> under the <b>Form</b> tab in a single-select question format</li>
 </ul>
 <pre>[radio SourceTypeID "Source Type One|1111" "Source Type Two|2222" "Source Type Three|3333"]<br />[select followUpProcessId "Follow-up Process One|1111" "Follow-up Process Two|2222" "Follow-up Process Three|3333"]</pre>
 
