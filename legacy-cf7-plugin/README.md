@@ -1,5 +1,5 @@
 <h1>WordPress Legacy Form Integration</h1>
-<p>Please note that this WordPress plugin is outdated and no longer supported. The most recent <a href="https://github.com/eci-lasso/wp-plugin" target="_blank">Lasso Bridge Plugin</a> is recommended instead.</p>
+<p>Please note that this WordPress plugin is <b>outdated and no longer supported</b>. The most recent <a href="https://github.com/eci-lasso/wp-plugin" target="_blank">Lasso Bridge Plugin</a> is recommended instead.</p>
 
 <h3><a name="cf7-plugin">Contact Form 7 Integration</a></h3>
 <p>To integrate a Contact Form 7 WordPress form:</p>
