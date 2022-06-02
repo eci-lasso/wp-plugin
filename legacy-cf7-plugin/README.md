@@ -19,7 +19,7 @@
 <pre>[radio* ProjectID "Project One|1111" "Project Two|2222" "Project Three|3333"]<br />[checkbox* ProjectIds "Project One|1111" "Project Two|2222" "Project Three|3333"]</pre>
 
 <h3><a name="sales-details">Sales Details as Form Fields</a></h3>
-<p>To set Source Type and Follow-up Process as form fields and assign based on selection:</p>
+<p>To set Source Type and Follow-up Process as form fields and assign values based on selections:</p>
 <ul>
 <li>Remove the <code>SourceTypeID</code> and/or <code>followUpProcessId</code> from under the <b>Additional Settings</b> tab</li>
 <li>Add the <code>SourceTypeID</code> and/or <code>followUpProcessId</code> under the <b>Form</b> tab as a single-select question</li>
