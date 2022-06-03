@@ -44,7 +44,5 @@
 </ul>
 <pre>[utm_campaign_i]&lt;input type="hidden" name="question-1111" value="%s" /&gt;[/utm_campaign_i]
 [utm_content_i]&lt;input type="hidden" name="question-2222" value="%s" /&gt;[/utm_content_i]
-[utm_id_i]&lt;input type="hidden" name="question-3333" value="%s" /&gt;[/utm_id_i]
-[utm_medium_i]&lt;input type="hidden" name="question-4444" value="%s" /&gt;[/utm_medium_i]
 [utm_source_i]&lt;input type="hidden" name="question-5555" value="%s" /&gt;[/utm_source_i]
 [utm_term_i]&lt;input type="hidden" name="question-6666" value="%s" /&gt;[/utm_term_i]</pre>
