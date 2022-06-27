@@ -19,12 +19,12 @@
 <pre>[radio* ProjectID "Project One|1111" "Project Two|2222" "Project Three|3333"]<br />[checkbox* ProjectIds "Project One|1111" "Project Two|2222" "Project Three|3333"]</pre>
 
 <h3><a name="sales-details">Sales Details as Form Fields</a></h3>
-<p>To set Source Type and Follow-up Process as form fields and assign values based on selections:</p>
+<p>To set Rating and Follow-up Process as form fields and assign values based on selections:</p>
 <ul>
-<li>Remove the <code>SourceTypeID</code> and/or <code>followUpProcessId</code> from under the <b>Additional Settings</b> tab</li>
-<li>Add the <code>SourceTypeID</code> and/or <code>followUpProcessId</code> under the <b>Form</b> tab in a single-select question format</li>
+<li>Remove the <code>RatingID</code> and/or <code>followUpProcessId</code> from under the <b>Additional Settings</b> tab</li>
+<li>Add the <code>RatingID</code> and/or <code>followUpProcessId</code> under the <b>Form</b> tab in a single-select question format</li>
 </ul>
-<pre>[radio SourceTypeID "Source Type One|1111" "Source Type Two|2222" "Source Type Three|3333"]<br />[select followUpProcessId "Follow-up Process One|1111" "Follow-up Process Two|2222" "Follow-up Process Three|3333"]</pre>
+<pre>[radio RatingID "Rating One|1111" "Rating Two|2222" "Rating Three|3333"]<br />[select followUpProcessId "Follow-up Process One|1111" "Follow-up Process Two|2222" "Follow-up Process Three|3333"]</pre>
 
 <h3><a name="dynamic-fields">Capturing Dynamic Fields</a></h3>
 <p>To capture dynamic fields and submit to Lasso:</p>
