@@ -39,7 +39,7 @@
 <h3><a name="dynamic-fields">Capturing UTM Information</a></h3>
 <p>To capture UTM information and submit to Lasso:</p>
 <ul>
-<li>Install and activate a version of the <a href="https://utmgrabber.com/" target="_blank">HandL UTM Grabber</a> plugin that includes the HandL Apps option</li>
+<li>Install and activate a version of the <a href="https://utmgrabber.com/" target="_blank">HandL UTM Grabber</a> plugin that includes the <b>HandL Apps</b> option</li>
 <li>Add the manual input question fields under the <b>Form</b> tab</li>
 </ul>
 <pre>[utm_campaign_i]&lt;input type="hidden" name="Questions-1111" value="%s" /&gt;[/utm_campaign_i]
